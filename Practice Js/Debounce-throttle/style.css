@@ -1,0 +1,11 @@
+.continer-div1 {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.card-container {
+    color: white;
+    font-size: 70px;
+}
