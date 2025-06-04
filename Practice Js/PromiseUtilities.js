@@ -58,8 +58,8 @@ Promise.allSettled([promise1, promise2, promise3, promise4]).then((result) => {
 // Returns the result of the first settled promise (resolve or reject).
 Promise.race([promise1, promise2, promise3, promise4])
   .then((result) => {
-    console.log("All Settled", result);
+    console.log("First fullfilled", result);
   })
   .catch((err) => {
-    console.log(err.message);
+    console.log("First rejected", err.message);
   });
