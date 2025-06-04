@@ -15,3 +15,12 @@ const c = b(3);
 const deFun = c(4)(5);
 
 console.log(deFun);
+
+// function curry(a) {
+//   return function(b) {
+//     if (!b) return a;
+//     return curry(a + b);
+//   };
+// }
+// let answer = curry(2)(3)(4)()
+// console.log(answer)
