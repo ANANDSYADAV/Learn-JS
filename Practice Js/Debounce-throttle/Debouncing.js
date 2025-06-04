@@ -21,3 +21,26 @@
 // document.getElementById("searchBtn").addEventListener("click", () => {
 //   console.log("Finally searching for", searchInput.value);
 // });
+
+// // debouncing
+// const debouncing = (method, delay) => {
+//   let timeout;
+//   return (...args) => {
+//     clearTimout(timeout);
+//     timeout = setTimeout(() => method(args), delay);
+//   }
+// }
+
+
+// // throttling
+// const throttling = (method, limit) => {
+//   let lastCall;
+//   return (...args) => {
+//     let now = new Date.now();
+//     if(now - lastCall >= limit) {
+//       lastCall = now;
+//       method(args);
+//     }
+//   }
+// }
+
